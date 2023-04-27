@@ -8,13 +8,12 @@ const arg2 = minimist(process.argv.slice(2));
 function help_message(){
     console.log('Usage: node-rpsls [SHOT]\nPlay the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!\n\n',
     
-      -h, --help        display this help message and exit
-      -r, --rules       display the rules and exit
-      node-rpsls        Return JSON with single player RPSLS result.
-                        e.g. {"player":"rock"}
-      node-rpsls rock   Return JSON with results for RPSLS played against a simulated opponent.
-                        e.g {"player":"rock","opponent":"Spock","result":"lose"}`);
-
+    '  -h, --help        display this help message and exit\n',
+    '  -r, --rules       display the rules and exit\n\nExamples:\n',
+    '  node-rpsls        Return JSON with single player RPSLS result.\n',
+    '                    e.g. {"player":"rock"}\n',
+    '  node-rpsls rock   Return JSON with results for RPSLS played against a simulated opponent.\n',
+    '                    e.g {"player":"rock","opponent":"Spock","result":"lose"}')
 }
 
 function rule_message(){
