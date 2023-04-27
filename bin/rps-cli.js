@@ -5,8 +5,7 @@ import minimist from 'minimist'
 const args = minimist(process.argv.slice(2));
 
 function help_message() {
-    console.log('Usage: node-rps [SHOT]\n
-    Play Rock Paper Scissors (RPS)\n\n',
+    console.log('Usage: node-rps [SHOT]\nPlay Rock Paper Scissors (RPS)\n\n',
     '  -h, --help      display this help message and exit\n',
     '  -r, --rules     display the rules and exit\n\nExamples:\n',
     Examples:
