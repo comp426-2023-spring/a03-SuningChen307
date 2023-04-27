@@ -33,7 +33,7 @@ if (args.r || args.rules) {
 try {
     console.log(JSON.stringify(rps(arg2._[0])))
 } catch (error){
-    helpMessage()
-    ruleMessage()
+    help_message()
+    rule_essage()
     process.exit(0)
 }
