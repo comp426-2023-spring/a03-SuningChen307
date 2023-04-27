@@ -42,3 +42,11 @@ if (args.r || args.rules) {
     rule_message();
     process.exit(0);
 }
+
+try {
+    console.log(JSON.stringify(rpsls(arg2._[0])))
+} catch (error) {
+    help_message()
+    rule_message()
+    process.exit(0)
+}
