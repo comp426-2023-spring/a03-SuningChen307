@@ -15,3 +15,10 @@ function help_message() {
     '  node-rps rock   Return JSON with results for RPS played against a simulated opponent.\n',
     '                  e.g {"player":"rock","opponent":"scissors","result":"win"}')
 }
+
+function rule_message() {
+    console.log('Rules for Rock Paper Scissors:\n\n',
+    ' - Scissors CUTS Paper\n',
+    ' - Paper COVERS Rock\n',
+    ' - Rock CRUSHES Scissors')
+}
