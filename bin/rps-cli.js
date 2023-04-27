@@ -34,6 +34,6 @@ try {
     console.log(JSON.stringify(rps(arg2._[0])))
 } catch (error){
     help_message()
-    rule_essage()
+    rule_message()
     process.exit(0)
 }
