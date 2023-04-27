@@ -8,7 +8,6 @@ function help_message() {
     console.log('Usage: node-rps [SHOT]\nPlay Rock Paper Scissors (RPS)\n\n',
     '  -h, --help      display this help message and exit\n',
     '  -r, --rules     display the rules and exit\n\nExamples:\n',
-    Examples:
     '  node-rps        Return JSON with single player RPS result.\n',
     '                  e.g. {"player":"rock"}\n',
     '  node-rps rock   Return JSON with results for RPS played against a simulated opponent.\n',
