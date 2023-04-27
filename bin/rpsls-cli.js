@@ -6,8 +6,7 @@ import { rpsls } from "../lib/rpsls.js"
 const arg2 = minimist(process.argv.slice(2)); 
 
 function help_message(){
-    console.log(`Usage: node-rpsls [SHOT]
-    Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!
+    console.log('Usage: node-rpsls [SHOT]\nPlay the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!\n\n',
     
       -h, --help        display this help message and exit
       -r, --rules       display the rules and exit
