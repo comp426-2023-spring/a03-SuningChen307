@@ -22,3 +22,12 @@ function rule_message() {
     ' - Paper COVERS Rock\n',
     ' - Rock CRUSHES Scissors')
 }
+
+if (args.h || args.help) {
+    help_message();
+    process.exit(0);
+}
+if (args.r || args.rules) {
+    rule_message();
+    process.exit(0);
+}
