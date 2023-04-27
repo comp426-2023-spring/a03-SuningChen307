@@ -31,3 +31,11 @@ if (args.r || args.rules) {
     rule_message();
     process.exit(0);
 }
+
+try {
+    console.log(JSON.stringify(rps(arg2._[0])))
+} catch (error){
+    helpMessage()
+    ruleMessage()
+    process.exit(0)
+}
