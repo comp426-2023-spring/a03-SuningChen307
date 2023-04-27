@@ -3,7 +3,7 @@
 import minimist from "minimist"
 import { rpsls } from "../lib/rpsls.js"
 
-const arg2 = minimist(process.argv.slice(2)); 
+const args = minimist(process.argv.slice(2)); 
 
 function help_message(){
     console.log('Usage: node-rpsls [SHOT]\nPlay the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!\n\n',
